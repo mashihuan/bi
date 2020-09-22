@@ -1,0 +1,173 @@
+/* 表格上方的输入框和添加按钮 */
+.area_form_box {
+  display: flex;
+  justify-content: space-between;
+}
+/* 线 */
+.area_form_box {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px #d3dbe7 solid;
+}
+/* 添加按钮 */
+.area_addBtn {
+  width: 84px;
+  height: 33px;
+  background: rgba(77, 115, 244, 1);
+  border-radius: 3px;
+  font-size: 12px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 32px;
+  text-align: center;
+}
+/* 盒子 */
+.element_box {
+  width: 100%;
+  background: #ffffff;
+  width: 100%;
+  padding: 20px;
+  padding: 16px 40px 60px 30px;
+  box-sizing: border-box;
+}
+/* 表格盒子 */
+.element_table {
+  width: 100%;
+  margin-top: 26px;
+  border:1px solid rgba(241,244,250,1);
+}
+/* 输入框 */
+.input-with-select input {
+  border: none;
+  background: #F7F9FC;
+}
+/* 输入框按钮 */
+.el-input-group__append {
+  border: none;
+  background: #F0F3F9;
+}
+.cell {
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: nowrap;
+}
+.cell button:nth-child(1) {
+  width: 43px;
+  padding: 0;
+  height:19px;
+  text-align: center;
+  color: #4D73F4;
+  line-height:19px;
+  background:rgba(77,115,244,0.08);
+  border-radius:10px;
+  border:none;
+}
+.cell button:nth-child(2) {
+  width: 43px;
+  padding: 0;
+  height:19px;
+  text-align: center;
+  color: #FF4D4F;
+  line-height: 19px;
+  background:#FFF2F3;
+  border-radius:10px;
+  border:none;
+}
+.cell button:nth-child(3) {
+  width: 43px;
+  padding: 0;
+  height:19px;
+  border:none;
+  text-align: center;
+  color: #62C5AF;
+  line-height: 19px;
+  background:#ECFAF8;
+  border-radius:10px;
+}
+
+.cell button:nth-child(4) {
+  width: 43px;
+  padding: 0;
+  height:19px;
+  border:none;
+  text-align: center;
+  line-height: 19px;
+  border-radius:10px;
+}
+
+.cell button:nth-child(5) {
+  width: 43px;
+  padding: 0;
+  height:19px;
+  border:none;
+  text-align: center;
+  line-height: 19px;
+  border-radius:10px;
+}
+.el-table th, .el-table tr {
+  background: none !important;
+}
+.el-table__header-wrapper table {
+  background: #F7F9FC;
+}
+/* .el-table__body tbody tr td:nth-child(1) {
+  position: absolute;
+  left: 45px;
+} */
+.el-table .cell {
+  /* padding-right: 80px !important; */
+}
+.area_addBtn {
+  cursor: pointer;
+}
+
+/* 上传图片 */
+.el-upload--picture-card {
+  width: 104px;
+  height: 104px;
+  line-height: 104px;
+}
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+  border-color: #409EFF;
+}
+.avatar-uploader-icon {
+  width: 104px;
+  height: 104px;
+  line-height: 104px;
+  text-align: center;
+}
+
+/* 美化滚动条 */
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(249, 250, 254, 1);
+  -webkit-border-radius: 0;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #b8b8b8;
+  -webkit-border-radius: 6px;
+  outline: 2px solid #fff;
+  outline-offset: -2px;
+  border: 2px solid #fff;
+  filter: alpha(opacity = 50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+::-webkit-scrollbar-thumb:hover {
+  height: 50px;
+  background-color: #878987;
+  -webkit-border-radius: 6px;
+}
